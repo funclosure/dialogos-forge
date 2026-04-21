@@ -1,0 +1,41 @@
+# State Template
+
+Use one state file per active learning thread.
+
+Suggested path examples:
+- `dialogos/state/grounding.md`
+- `dialogos/state/selfhood.md`
+- `dialogos/state/agency.md`
+
+```md
+# <Topic>
+
+## Current Phase
+F | O | R | G | E
+
+## Current Grip
+What is the best current articulation of where the learner is?
+
+## Open Questions
+- 
+- 
+- 
+
+## Active Artifacts
+- ../inbox/<artifact>.md
+- ../forge/<artifact>.md
+
+## Last Meaningful Shift
+What changed in understanding most recently?
+
+## Next Move
+What is the highest-leverage next step?
+
+## Embodiment Path
+If this insight becomes executable, how might it show up in code, writing, decisions, or habit?
+```
+
+## Notes
+
+- Update this file when the learner's edge changes, not for every tiny note.
+- Treat this file as the fastest re-entry point when revisiting a topic later.
