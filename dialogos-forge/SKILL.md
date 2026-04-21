@@ -1,6 +1,6 @@
 ---
 name: dialogos-forge
-description: Run a human-AI co-learning loop for philosophy, software, AI, or abstract sensemaking using the F.O.R.G.E. protocol. Use when the user wants to explore an idea through dialog rather than get a simple summary, reconstruct or formalize a learning methodology, create or refine learning artifacts, or maintain a workspace of raw notes, forged syntheses, topic state, and durable memory.
+description: Run a human-AI co-learning loop for philosophy, software, AI, embodiment, or abstract sensemaking using the F.O.R.G.E. protocol. Use when the user wants to explore an idea through dialog rather than get a simple summary, co-read a paper or book, digest long-form media, understand an important figure, build a practical skill path, or maintain a workspace of intake notes, raw notes, forged syntheses, topic state, and durable memory.
 ---
 
 # Dialogos Forge
@@ -66,6 +66,21 @@ Examples:
 - memory entry
 - experiment to run
 
+## Intake modes
+
+Before turning material into a stable topic, identify what kind of incoming object it is.
+
+Supported intake modes:
+- `source-digestion`
+- `co-reading`
+- `skill-acquisition`
+- `figure-inquiry`
+- `concept-inquiry`
+- `embodiment-inquiry`
+
+Read `references/intake-model.md` when you need routing guidance.
+Use `references/intake-template.md` when capturing a new incoming object before it becomes a full topic thread.
+
 ## Recommended workspace shape
 
 Use this layout when creating or organizing artifacts:
@@ -105,6 +120,9 @@ Think of the artifact as the map, and the state file as the pin.
 When revisiting a topic, read the matching `dialogos/state/<topic>.md` first, then open linked artifacts as needed.
 
 ## Artifact template guidance
+
+If the material is still arriving and has not yet become a stable thread, use an intake note first.
+If it is already a working artifact, use the standard artifact template.
 
 Each artifact should begin with lightweight structure:
 
@@ -178,6 +196,8 @@ Do not promote material just because it is recent. Promote it when it has earned
 
 ## Resources
 
+- `references/intake-model.md`: intake modes and routing logic for incoming learning material
+- `references/intake-template.md`: starter template for a new intake note
 - `references/artifact-template.md`: starter template for inbox, forge, and synthesis artifacts
 - `references/state-template.md`: starter template for tracking where the user currently is in a learning arc
 - `references/movement-rules.md`: concise rules for when material should move between inbox, forge, syntheses, and memory

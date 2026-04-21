@@ -81,6 +81,35 @@ This could mean:
 
 At this point, the idea should begin to shape behavior, not just language.
 
+## Intake model
+
+Not every learning thread begins as a neat topic.
+
+Some arrive as:
+- a 2-hour YouTube conversation
+- a PDF or research paper to co-read
+- a skill you want to acquire
+- an important figure you want to understand
+- a concept with philosophical heat
+- a body-based practice or question
+
+So Dialogos Forge distinguishes **intake mode** from **topic**.
+
+### Intake modes
+
+- `source-digestion`: long-form media like YouTube, podcasts, interviews, transcripts
+- `co-reading`: PDFs, papers, books, essays, and primary texts read together
+- `skill-acquisition`: practical capability-building like React Native or databases
+- `figure-inquiry`: understanding what a person represents and why they matter
+- `concept-inquiry`: sustained clarification of ideas like grounding, agency, selfhood
+- `embodiment-inquiry`: body-based learning like fascia, movement, Animal Flow, energy
+
+This matters because each kind of input needs a different rhythm.
+A long video needs extraction.
+A paper needs close reading.
+A technical skill needs a path and exercises.
+A philosophical concept needs pressure-testing.
+
 ## Workspace design
 
 Dialogos Forge works best when the filesystem mirrors the learning process.
@@ -96,10 +125,12 @@ memory/
 MEMORY.md
 ```
 
+A useful pattern is to capture new material first as an intake note, then promote it into a topic thread only if it develops enough continuity or heat.
+
 ### What goes where
 
 #### `dialogos/inbox/`
-Raw captures.
+Raw captures and intake notes.
 
 Use this for:
 - rough notes
@@ -108,6 +139,7 @@ Use this for:
 - question fragments
 - unfinished reactions
 - article or podcast notes
+- new incoming learning objects that have not yet become stable threads
 
 This is high-recall, low-precision material.
 
@@ -204,12 +236,14 @@ Use just enough scaffolding to make future retrieval and continuation easy.
 
 A common session might look like this:
 
-1. capture a catalyst in `dialogos/inbox/`
-2. pressure-test it in conversation
-3. create or update a working note in `dialogos/forge/`
-4. update the topic file in `dialogos/state/`
-5. promote the result to `dialogos/syntheses/` if it becomes durable
-6. write to `memory/` or `MEMORY.md` only if it should persist beyond the current thread
+1. capture a catalyst or new intake in `dialogos/inbox/`
+2. identify the intake mode
+3. decide whether it should remain a loose intake, become a topic thread, or be dropped
+4. pressure-test it in conversation
+5. create or update a working note in `dialogos/forge/`
+6. create or update the topic file in `dialogos/state/` when the thread has continuity
+7. promote the result to `dialogos/syntheses/` if it becomes durable
+8. write to `memory/` or `MEMORY.md` only if it should persist beyond the current thread
 
 ## Who this is for
 
