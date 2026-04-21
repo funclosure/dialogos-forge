@@ -1,7 +1,7 @@
 # Humane Representation
 
 ## Current Phase
-F
+G
 
 ## Current Grip
 We are starting from Bret Victor's claim that representations are not neutral containers for thought. They unlock or suppress different latent human capacities. The active question is whether a more humane medium of thought would genuinely expand cognition, or whether this vision partly over-romanticizes embodiment and physicality.
@@ -30,12 +30,14 @@ The emerging shift is from seeing interface and medium as optional wrappers arou
 
 ## Active Artifacts
 - ../inbox/humane-representation-of-thought.md
+- ../forge/humane-representation-and-the-ecology-of-knowing.md
+- ../syntheses/grounding-bret-toward-a-richer-co-thinking-medium.md
 
 ## Last Meaningful Shift
-We recognized this not just as a UI/design talk, but as a deeper argument about medium, cognition, and the moral shape of knowledge work.
+The refined synthesis was grounded in the lived constraints of Telegram itself, yielding two practical medium requirements: a visual engine inside the loop, and an inquiry map with contours and progressive disclosure.
 
 ## Next Move
-Move into O — Oppose by extracting the core claims and pressure-testing them one by one.
+Branch the grounding into Grasp Tools as a concrete design note on co-thinking visual engines and living inquiry maps.
 
 ## Embodiment Path
 Possible paths include a synthesis note on humane media, a map connecting Bret Victor to other thinkers, or design principles for tools and learning environments that resist tiny-rectangle cognition.
