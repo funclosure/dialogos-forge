@@ -16,6 +16,21 @@ F | O | R | G | E
 ## Current Grip
 What is the best current articulation of where the learner is?
 
+## Why This Thread Is Alive
+Why does this continue to matter now?
+
+## Historical Resonance
+What past threads, figures, concerns, or prior learnings does this continue or reactivate?
+
+## Personal Resonance
+Given what is known about the learner, why does this thread matter specifically to them?
+
+## Why Now
+Why is this thread timely at this moment?
+
+## Relationship Shift
+What is changing in how the learner sees self, world, work, or practice?
+
 ## Open Questions
 - 
 - 
@@ -39,3 +54,4 @@ If this insight becomes executable, how might it show up in code, writing, decis
 
 - Update this file when the learner's edge changes, not for every tiny note.
 - Treat this file as the fastest re-entry point when revisiting a topic later.
+- Historical resonance, personal resonance, and why-now help preserve the meaningful fit between learner and material.

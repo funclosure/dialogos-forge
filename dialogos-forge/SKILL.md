@@ -116,8 +116,9 @@ For best later retrieval, separate the artifact from the learner state.
 
 - The **artifact** stores the content.
 - The **state file** stores where the user currently is.
+- **Resonance** stores why this matters, including historical resonance, personal resonance, why-now, and the relationship being realized.
 
-Think of the artifact as the map, and the state file as the pin.
+Think of the artifact as the map, the state file as the pin, and resonance as the felt relevance that makes the map worth returning to.
 
 When revisiting a topic, read the matching `dialogos/state/<topic>.md` first, then open linked artifacts as needed.
 
@@ -125,6 +126,8 @@ When revisiting a topic, read the matching `dialogos/state/<topic>.md` first, th
 
 If the material is still arriving and has not yet become a stable thread, use an intake note first.
 If it is already a working artifact, use the standard artifact template.
+
+Intake notes should include historical resonance, personal resonance, why-now, and relevance realization, not just descriptive metadata.
 
 Each artifact should begin with lightweight structure:
 
@@ -162,6 +165,11 @@ Use one state file per active topic, for example:
 Each state file should track:
 - current F.O.R.G.E. phase
 - current grip or working thesis
+- why the thread is alive
+- historical resonance
+- personal resonance
+- why now
+- relationship shift
 - open questions
 - active artifacts
 - last meaningful shift

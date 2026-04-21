@@ -18,6 +18,18 @@ conversation | youtube | podcast | paper | pdf | book | article | code | other
 ## Why It Has Heat
 Why does this feel alive, important, confusing, or charged right now?
 
+## Historical Resonance
+What past threads, figures, concerns, or prior learnings does this echo?
+
+## Personal Resonance
+Given what is known about the learner, why might this matter specifically to them?
+
+## Why Now
+Why is this alive at this moment rather than earlier or later?
+
+## Relevance Realization
+What relationship is becoming visible between this material and the learner's world, work, questions, development, or life?
+
 ## Raw Capture
 Links, quotes, fragments, observations, or rough notes.
 

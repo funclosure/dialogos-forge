@@ -224,6 +224,8 @@ When revisiting a topic:
 
 This keeps re-entry fast and cognitively clean.
 
+But content alone is not enough. Meaning also depends on resonance: why a thread matters to the learner now, what it touches, and what relationship is being realized.
+
 ## Design principles
 
 ### Organize by function, not just date
@@ -240,6 +242,17 @@ If transcripts, syntheses, questions, and stable frameworks all live in the same
 Recent is not the same as important.
 
 Move notes upward only when they become more coherent, durable, or reusable.
+
+### Track resonance, not just content
+A strong learning system should capture not only what the material says, but why it matters.
+
+Include lightweight notes about:
+- what past threads or figures this echoes
+- why it matters specifically to the learner
+- why it is alive now
+- what relationship or relevance is being realized
+
+This keeps the system existentially alive instead of becoming a sterile archive.
 
 ### Keep structure lightweight
 This is a thinking aid, not an administrative burden.
