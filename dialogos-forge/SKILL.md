@@ -1,6 +1,6 @@
 ---
 name: dialogos-forge
-description: Run a human-AI co-learning loop for philosophy, software, AI, embodiment, or abstract sensemaking using the F.O.R.G.E. protocol. Use when the user wants to explore an idea through dialog rather than get a simple summary, co-read a paper or book, digest long-form media, understand an important figure, build a practical skill path, or maintain a workspace of intake notes, raw notes, forged syntheses, topic state, and durable memory.
+description: Run a human-AI co-learning loop for philosophy, software, AI, embodiment, or abstract sensemaking using the F.O.R.G.E. protocol. Use when the user wants to explore an idea through dialog rather than get a simple summary, co-read a paper or book, digest long-form media, understand an important figure, build a practical skill path, or maintain a workspace of intake notes, raw notes, forged syntheses, topic state, figure nodes, and durable memory.
 ---
 
 # Dialogos Forge
@@ -91,6 +91,7 @@ dialogos/
   forge/
   syntheses/
   state/
+  figures/
   templates/
 memory/
 MEMORY.md
@@ -102,6 +103,7 @@ MEMORY.md
 - `dialogos/forge/`: active transformations and intermediate outputs
 - `dialogos/syntheses/`: strong finished pieces worth revisiting
 - `dialogos/state/`: current position in each learning thread
+- `dialogos/figures/`: recurring people who become stable nodes across threads
 - `dialogos/templates/`: reusable scaffolds
 - `memory/`: dated durable notes only when the user wants persistence
 - `MEMORY.md`: sparse, high-value long-term truths and decisions
@@ -194,10 +196,25 @@ Do not promote material just because it is recent. Promote it when it has earned
 - a polished synthesis in `dialogos/syntheses/`
 - a small durable memory note, if the user wants persistence
 
+## Figure guidance
+
+Use a figure file when a person recurs, anchors multiple ideas, or the user explicitly wants to understand what they represent.
+
+A figure file should track:
+- what the person represents
+- signature ideas
+- core distinctions
+- linked threads and artifacts
+- related figures
+- open questions
+
+Read `references/figure-template.md` when creating or updating a figure node.
+
 ## Resources
 
 - `references/intake-model.md`: intake modes and routing logic for incoming learning material
 - `references/intake-template.md`: starter template for a new intake note
 - `references/artifact-template.md`: starter template for inbox, forge, and synthesis artifacts
 - `references/state-template.md`: starter template for tracking where the user currently is in a learning arc
+- `references/figure-template.md`: starter template for recurring figure nodes
 - `references/movement-rules.md`: concise rules for when material should move between inbox, forge, syntheses, and memory

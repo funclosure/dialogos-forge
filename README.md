@@ -120,6 +120,7 @@ dialogos/
   forge/
   syntheses/
   state/
+  figures/
   templates/
 memory/
 MEMORY.md
@@ -184,8 +185,21 @@ A state file should track:
 
 This lets the system distinguish between **the content** and **where the learner currently is**.
 
+#### `dialogos/figures/`
+Recurring thinkers, builders, researchers, or other people who anchor multiple learning threads.
+
+A figure file is not mainly biography. It tracks:
+- what the figure represents
+- signature ideas and distinctions
+- why they matter
+- linked threads and artifacts
+- related figures
+- open questions
+
+Use this when a person recurs enough to become a stable node in the learning map.
+
 #### `dialogos/templates/`
-Reusable scaffolds for artifacts and state files.
+Reusable scaffolds for artifacts, state files, and figure files.
 
 #### `memory/` and `MEMORY.md`
 Durable memory only.
